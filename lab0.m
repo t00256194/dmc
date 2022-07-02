@@ -1,15 +1,15 @@
 clear all
 clc
 
-%%%%Independent_Variables
+%% Independent_Variables
 x = 0:2:25;
 y = linspace(0,25,100);
 
-%%%%Dependent_Variables
+%% Dependent_Variables
 fx = sin(x)./x;
 fy = sin(y)./y; 
 
-%%%%Plots
+%% Plots
 subplot 121
 plot(x,fx,'g--')
 title('f(x) vs. x'); grid on
